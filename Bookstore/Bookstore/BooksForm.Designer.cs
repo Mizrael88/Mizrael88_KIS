@@ -46,6 +46,9 @@
             this.idBooks = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idSections = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idAuthor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idSuppliers = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idPublishers = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.year = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,14 +64,14 @@
             this.открытьToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1139, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(792, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(44, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(45, 20);
             this.toolStripMenuItem1.Text = "Вход";
             // 
             // открытьToolStripMenuItem
@@ -176,6 +179,9 @@
             this.idBooks,
             this.title,
             this.idSections,
+            this.idAuthor,
+            this.idSuppliers,
+            this.idPublishers,
             this.year,
             this.quantity,
             this.price});
@@ -204,6 +210,21 @@
             this.idSections.Name = "idSections";
             this.idSections.ReadOnly = true;
             // 
+            // idAuthor
+            // 
+            this.idAuthor.HeaderText = "Автор";
+            this.idAuthor.Name = "idAuthor";
+            // 
+            // idSuppliers
+            // 
+            this.idSuppliers.HeaderText = "Поставщики";
+            this.idSuppliers.Name = "idSuppliers";
+            // 
+            // idPublishers
+            // 
+            this.idPublishers.HeaderText = "Издатели";
+            this.idPublishers.Name = "idPublishers";
+            // 
             // year
             // 
             this.year.HeaderText = "Год";
@@ -226,7 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 486);
+            this.ClientSize = new System.Drawing.Size(792, 486);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -265,6 +286,9 @@
         private DataGridViewTextBoxColumn idBooks;
         private DataGridViewTextBoxColumn title;
         private DataGridViewTextBoxColumn idSections;
+        private DataGridViewTextBoxColumn idAuthor;
+        private DataGridViewTextBoxColumn idSuppliers;
+        private DataGridViewTextBoxColumn idPublishers;
         private DataGridViewTextBoxColumn year;
         private DataGridViewTextBoxColumn quantity;
         private DataGridViewTextBoxColumn price;
